@@ -138,6 +138,23 @@
 // .catch(err=> console.error(err))
 
 
+// let myPromise = new Promise((resolve, reject) => {
+//   let success = true;
+
+//   if (success) {
+//     resolve("✅ Task completed!");
+//   } else {
+//     reject("❌ Task failed!");
+//   }
+// });
+
+// myPromise
+//   .then(result => console.log(result))   // runs if resolved
+//   .catch(error => console.log(error))   // runs if rejected
+//   .finally(() => console.log("Promise finished"));
+
+
+
 
 function cleanhouse(){
     return new Promise((resolve,reject)=>{
