@@ -4,10 +4,8 @@ class car{
         this.model=model;
     }
 
-}
-
- function start(){
-console.log(`${this.brand},${this.model} has started`)
+  start(){
+   console.log(`${this.brand},${this.model} has started`)}
 }
 
 let car1= new car("tayota", "corolla")
